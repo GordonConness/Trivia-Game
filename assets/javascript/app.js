@@ -8,7 +8,7 @@ $(document).ready(function(){
    
    var trivia = {
      
-     correct: 0,
+     correctAnswer: 0,
      incorrect: 0,
      unanswered: 0,
      current: 0,
