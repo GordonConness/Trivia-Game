@@ -3,28 +3,32 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Trivia Game</title>  
-    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
-    <script type="text/javascript" src="assets/javascript/app.js"></script> 
+    <title>Game of Thrones Trivia</title>
   </head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Ranchers" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
 
-  <body>
+<body>
 
     <div class="jumbotron">
-      <div class="container">
-        <div class="game">
-          <h1>Game of Thrones Trivia</h1>
-            <p id="time-remaining">Time Remaining: <span id="timer"></span></p>
-            <p id="question"></p>
+      <h4>Trivia Game!</h4>
+    <div class="container">
+        <div class="row"></div>
+        <div class="wins"></div>
+        <div class="wrapper">
+            <p id="timer">Time Remaining:</p>
+            <p id="trivQuestion"></p>
+            <div id="trivButtons"></div>
+            <p id="response"></p>
         </div>
-          <div class="results">
-          </div>
-            <button id="begin" class="btn begin">Begin</button>
-            <div class="options"> 
-            </div>
-      </div>
+        <div class="losses"></div>
     </div>
-  </body>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
 </html>
- 
-  
